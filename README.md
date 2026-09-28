@@ -22,6 +22,6 @@ Push to `master` to publish. Keep `CNAME` set to `artbox.app`. GitHub Pages buil
 
 The page includes a direct App Store link, Apple Smart App Banner, canonical URL, basic social metadata, structured app data, sitemap, responsive styles, native FAQ disclosures, keyboard focus indicators, and reduced-motion support. No tracking or analytics service is added.
 
-## Outstanding existing content
+## Privacy policy
 
-The inherited `_pages/privacypolicy.md` contains template placeholder text. Replace it with the owner's approved policy. The developer URL currently used inside the iOS app (`https://thatvirtualboy.com/privacy`) describes a different app and should also be reviewed. Do not copy that policy into this site.
+`privacypolicy/index.html` is the public policy. It describes gallery/iCloud storage, optional AI and printing transfers, purchases, analytics, cloud-account deletion, and retained order data based on the app and backend source. Update it when those practices change. The backend currently has no fixed automatic deletion date for completed order records or ordered-book PDFs; do not claim one unless implemented.

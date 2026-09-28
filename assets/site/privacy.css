@@ -1,0 +1,73 @@
+.policy {
+  max-width: 760px;
+  padding-top: 52px;
+  padding-bottom: 70px;
+}
+
+.policy h1 {
+  font-size: clamp(2.5rem, 6vw, 3.75rem);
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+
+.policy-date {
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin-bottom: 42px;
+}
+
+.policy article {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.policy article h2 {
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin-top: 42px;
+  margin-bottom: 16px;
+}
+
+.policy article p {
+  margin-bottom: 18px;
+}
+
+.policy article ul {
+  padding-left: 24px;
+  margin: 0 0 22px;
+}
+
+.policy article li {
+  padding-left: 4px;
+  margin-bottom: 16px;
+}
+
+.policy article a {
+  color: var(--purple-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+
+.site-footer p {
+  margin: 6px 0 0;
+}
+
+@media (max-width: 700px) {
+  .policy {
+    padding-top: 36px;
+    padding-bottom: 42px;
+  }
+
+  .site-header > .text-link {
+    font-size: 0.875rem;
+    gap: 8px;
+  }
+}
